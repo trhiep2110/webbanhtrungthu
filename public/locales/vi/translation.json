@@ -1,0 +1,403 @@
+{
+  "common": {
+    "byNow": "MUA NGAY",
+    "midAutumnFestival": "Mid Autumn Festival",
+    "register": "Đăng ký",
+    "showMore": "Xem thêm",
+    "hidden": "Thu gọn",
+    "loading": "Đang tải...",
+    "cancel": "Hủy bỏ",
+    "saveChange": "Lưu thay đổi",
+    "checkout": "Thanh toán",
+    "send": "Gửi đi",
+
+    "continueShopping": "Tiếp tục mua hàng",
+    "popularDishes": "MÓN PHỔ BIẾN",
+    "sweetCakes": "ĂN BÁNH TRUNG THU NGỌT NGÀO",
+    "showMenu": "Xem Menu",
+    "autumnCake": "Bánh trung thu",
+    "inStock": "Còn hàng",
+    "outOfStock": "Hết hàng",
+    "apply": "Áp dụng",
+    "search": "Tìm kiếm",
+    "logout": "Đăng xuất",
+    "showMoreItem": "Xem thêm sản phẩm",
+    "showItemDetail": "Xem chi tiết sản phẩm",
+    "toast": {
+      "hasErrorTryAgainLater": "Đã có lỗi xảy ra vui lòng thử lại sau"
+    },
+    "review": "Đánh giá",
+    "rating": {
+      "1": "1 sao",
+      "2": "2 sao",
+      "3": "3 sao",
+      "4": "4 sao",
+      "5": "5 sao"
+    },
+    "loginSuccess": "Đăng nhập thành công",
+    "logoutSuccess": "Đăng xuất thành công"
+  },
+
+  "order": {
+    "noOrders": "Bạn chưa có đơn hàng nào",
+    "status": {
+      "pending": "Chờ xác nhận",
+      "confirmed": "Đã xác nhận",
+      "reject": "Từ chối",
+      "shipping": "Đang giao",
+      "success": "Thành công",
+      "canceled": "Bị hủy"
+    },
+    "paymentStatus": {
+      "paid": "Đã thanh toán",
+      "unpaid": "Chưa thanh toán"
+    },
+    "buyerName": "Tên người mua",
+    "recipientName": "Tên người nhận",
+    "address": "Địa chỉ",
+    "productTotal": "Tổng tiền sản phẩm",
+    "shippingFee": "Phí ship",
+    "totalAmount": "Tổng tiền đơn hàng",
+    "paymentMethod": "Phương thức thanh toán",
+    "onlinePayment": "Thanh toán trực tuyến",
+    "cashOnDelivery": "Thanh toán khi nhận hàng",
+    "productList": "Danh sách sản phẩm",
+    "cancel": "Hủy",
+    "proceedPayment": "Tiến hành thanh toán",
+    "listTitle": "Danh sách đơn hàng của bạn",
+    "dialog": {
+      "title": "Thêm đánh giá",
+      "content": "Nội dung đánh giá",
+      "rating": "Đánh giá của bạn",
+      "submitLabel": "Gửi đánh giá",
+      "cancel": "Hủy bỏ",
+      "successful": "Thêm đánh giá thành công"
+    }
+  },
+
+  "validation": {
+    "required": "Trường này là bắt buộc.",
+    "invalidEmail": "Email không hợp lệ.",
+    "invalidPhoneNumber": "Số điện thoại không hợp lệ",
+    "invalidOption": "Lựa chọn không phù hợp",
+    "invalidPassword": "Mật khẩu phải có ít nhất 6 ký tự",
+    "invalidOTP": "Mã OTP phải có đúng 6 ký tự",
+    "invalidConfirmPassword": "Mật khẩu xác nhận không khớp.",
+    "fullNameRequired": "Tên đăng nhập là bắt buộc",
+    "fullNameMinLength": "Tên đăng nhập phải có ít nhất 4 ký tự",
+    "emailRequired": "Email là bắt buộc",
+    "passwordRequired": "Mật khẩu là bắt buộc",
+    "passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự",
+    "confirmPasswordRequired": "Xác nhận mật khẩu là bắt buộc",
+    "confirmPasswordNotMatch": "Mật khẩu xác nhận không khớp"
+  },
+
+  "pageTitle": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "product": "Sản phẩm",
+    "other": "Khác",
+    "signIn": "Đăng nhập",
+    "signUp": "Đăng ký",
+    "test": "TEST",
+    "cart": "Giỏ hàng",
+    "search": "Tìm kiếm",
+    "checkout": "Thanh toán",
+    "forgot-password": "Quên Mật khẩu",
+    "verify-forgot-password-otp": "Xác thực OTP",
+    "reset-password": "Đặt lại mật khẩu",
+    "profile": "Thông tin",
+    "me": "Thông tin của bạn",
+    "viewed-products": "Sản phẩm đã xem",
+    "change-password": "Đổi mật khẩu",
+    "order": "Đơn hàng của bạn",
+    "favorites": "Danh sách sản phẩm yêu thích"
+  },
+
+  "viewedProducts": {
+    "title": "Danh sách sản phẩm đã xem"
+  },
+
+  "cart": {
+    "title": "Giỏ hàng của bạn",
+    "total": "Tổng tiền:",
+    "empty": "Giỏ hàng của bạn đang trống",
+    "cartBtn": "Giỏ hàng",
+    "checkoutBtn": "Thanh toán",
+    "unitPrice": "Đơn giá",
+    "quantity": "Số lượng",
+    "totalPrice": "Thành tiền",
+    "dialog": {
+      "title": "Xác nhận xóa",
+      "submitLabel": "Xác nhận",
+      "cancelLabel": "Hủy bỏ",
+      "desc": "Bạn có chắc chắn muốn xóa sản phẩm này khỏi giỏ hàng?"
+    }
+  },
+
+  "shopInfo": {
+    "phoneNumber": "0966 859 061",
+    "address": "Xóm 2, Liên Phương, Thường Tín, Hà Nội",
+    "email": "Lenghia0183@gmail.com"
+  },
+
+  "footer": {
+    "itemList": {
+      "title": "Danh mục sản phẩm",
+      "item1": "Bánh trăng vàng cao cấp",
+      "item2": "Bánh nướng 2 trứng đặc biệt",
+      "item3": "Bánh xanh",
+      "item4": "Bánh trung thu OREO",
+      "item5": "Bánh nướng 1 trứng",
+      "item6": "Bánh dẻo"
+    },
+    "serviceList": {
+      "title": "Danh mục dịch vụ",
+      "service1": "Dịch vụ riêng",
+      "service2": "Dịch vụ khách hàng"
+    },
+    "freeShipTitle": "Miễn phí giao hàng",
+    "freeShipDesc": "Với đơn hàng từ 500k",
+    "paymentTitle": "Thanh toán đa dạng",
+    "paymentDesc": "Ví Momo, ZaloPay, Mastercard,...",
+    "refundTitle": "Đổi trả đễ dàng",
+    "refundDesc": "Trong vòng 12h",
+    "copyRight": "Sản phẩm của lenghia0183"
+  },
+
+  "banner": {
+    "title": "  HƯƠNG VỊ BÁNH TRUNG THU KHÔNG THỂ BỎ LỠ",
+    "desc": " Thương hiệu quốc dân là lựa chọn hàng đầu của người tiêu dùng",
+    "itemBtn": "SẢN PHẨM"
+  },
+
+  "home": {
+    "section1": {
+      "title1": "Bánh trung thu cao cấp",
+      "desc1": "Bánh trung thu chính hãng với quy cách, chất lượng hoàn hảo nhất",
+      "title2": "Bánh trung thu cao cấp",
+      "title3": "Bánh trung thu cao cấp"
+    },
+    "reason": {
+      "title": "Lý do",
+      "whyChoiceUs": "Bạn nên chọn chúng tôi",
+      "desc1": "Chúng tôi xin cam đoan trao tận tay khách hàng các sản phẩm Bánh Trung Thu chính hãng với quy cách, chất lượng hoàn hảo nhất.",
+      "desc2": "Trân trọng ý nghĩa Tết Trung Thu, chúng tôi luôn không ngừng sáng tạo, đầu tư để mỗi năm đều giới thiệu và phục vụ thị trường những dòng sản phẩm mới với chất lượng và mẫu mã tốt nhất, góp phần tạo nên lễ hội Trung Thu đậm đà bản sắc Việt Nam."
+    },
+
+    "saleItems": {
+      "title": "ƯU ĐÃI HẤP DẪN",
+      "desc": "Không quá cầu kì, bánh trung thu mang nét mộc mạc, đặc trưng làm say lòng không biết bao thế hệ người thưởng thức."
+    },
+    "email": {
+      "title": "Đăng ký email nhận tin khuyến mãi",
+      "inputPlaceholder": "Địa chỉ email..."
+    }
+  },
+  "about": {
+    "introduction": "Giới thiệu",
+    "mission": "Tầm nhìn và sứ mệnh",
+    "staff": "Đội ngũ nhân viên",
+    "desc01": "Chúng tôi xin chân thành cảm ơn sự quan tâm của quý khách hàng trong suốt thời gian qua đã ủng hộ tin tưởng sản phẩm của chúng tôi!",
+    "desc02": "Trung Thu năm nay, ấn tượng nhất về sự đầu tư, sáng tạo của Kinh Đô là dòng sản phẩm thượng hạng Trăng Vàng. Với ý nghĩa châu báu của đời người là tình thân và các mối giao hảo, Kinh Đô ra mắt bộ sưu tập Trăng Vàng với các bộ sản phẩm hoàn toàn mới: Trăng Vàng Kim Cương, Trăng Vàng Bạch Kim, Trăng Vàng Hoàng Kim, Trăng Vàng Hồng Ngọc cùng các hương vị bánh mới với thành phần nguyên liệu thượng hạng như: Sò điệp Nhật xốt X.O, Cua Huỳnh Đế, Tôm Càng Bách Hoa, Gà quay Tứ Quý.",
+    "desc03": "Chúng tôi cũng là một trong những thương hiệu bánh được người tiêu dùng bình chọn là hàng Việt Nam chất lượng cao. Thành công đó có được là nhờ những phấn đấu không ngừng có mặt trên thị trường của tập thể quản lý, nhân viên và thợ làm bánh.",
+    "desc04": "Nhưng trên hết, chúng tôi mong muốn gửi đến Quý khách hàng lời cảm ơn chân thành nhất vì đã ủng hộ thương hiệu bánh trong suốt thời gian vừa qua. Chúng tôi tin tưởng với sự cố gắng của mình và sự ưu ái của Quý khách hàng, chúng tôi sẽ không ngừng lớn mạnh để phục vụ người tiêu dùng ngày càng tốt hơn.",
+    "desc05": "Chúng tôi hướng đến việc trở thành thương hiệu bánh Trung Thu số 1 tại Việt Nam, với cam kết mang đến những sản phẩm thượng hạng, an toàn và sáng tạo, để làm hài lòng mọi khách hàng.",
+    "desc06": "Sứ mệnh của chúng tôi là không ngừng sáng tạo, nâng cao chất lượng và mang đến những trải nghiệm tuyệt vời cho khách hàng trong từng sản phẩm, vì tình thân và các mối giao hảo.",
+    "desc07": "Chúng tôi tin rằng sự thành công không chỉ đến từ việc cung cấp sản phẩm chất lượng mà còn từ sự tận tâm trong từng khâu sản xuất, đóng gói, và phục vụ khách hàng. Từng chiếc bánh mà chúng tôi tạo ra đều là một tác phẩm nghệ thuật, chứa đựng không chỉ hương vị mà còn cả tình yêu và sự tôn trọng đối với khách hàng.",
+    "desc08": "Trong tương lai, chúng tôi sẽ không ngừng phát triển và nâng cấp quy trình sản xuất, áp dụng công nghệ hiện đại để mang đến cho người tiêu dùng những trải nghiệm tốt nhất. Đồng thời, chúng tôi cam kết bảo vệ môi trường, tối ưu hóa sử dụng nguồn tài nguyên, và luôn đồng hành cùng sự phát triển bền vững.",
+    "desc09": "Mỗi sản phẩm không chỉ là một món quà ý nghĩa trong dịp Trung Thu, mà còn là một biểu tượng của tình cảm và sự gắn kết mà chúng tôi muốn truyền tải đến mỗi gia đình Việt Nam. Với tầm nhìn xa rộng và sứ mệnh vững chắc, chúng tôi mong muốn mang đến những giá trị lâu dài, tạo nên niềm tin và sự yêu thương từ người tiêu dùng.",
+    "desc10": "Không quá cầu kì, bánh trung thu mang nét mộc mạc, đặc trưng làm say lòng không biết bao thế hệ người thưởng thức."
+  },
+  "changePassword": {
+    "title": "Đổi mật khẩu",
+    "currentPassword": "Mật khẩu hiện tại",
+    "newPassword": "Mật khẩu mới",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "submit": "Xác nhận",
+    "errors": {
+      "currentPasswordRequired": "Mật khẩu hiện tại là bắt buộc",
+      "newPasswordMin": "Mật khẩu mới phải có ít nhất 6 ký tự",
+      "newPasswordRequired": "Mật khẩu mới là bắt buộc",
+      "confirmPasswordMismatch": "Mật khẩu xác nhận không khớp",
+      "confirmPasswordRequired": "Xác nhận mật khẩu là bắt buộc"
+    }
+  },
+  "profile": {
+    "title": "Thông tin tài khoản",
+    "name": "Họ và tên",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "province": "Tỉnh/Thành phố:",
+    "district": "Quận/Huyện:",
+    "ward": "Phường/Xã",
+    "street": "Tên đường",
+    "updateAvatarSuccess": "Cập nhật ảnh đại diện thành công",
+
+    "sideBar": {
+      "accountInfo": "Thông tin tài khoản",
+      "changePassword": "Đổi mật khẩu",
+      "yourOrder": "Đơn hàng của bạn",
+      "viewedProduct": "Sản phẩm đã xem",
+      "favoriteList": "Danh sách yêu thích"
+    }
+  },
+  "checkout": {
+    "title": "Thanh toán",
+    "userInfo": "Thông tin khách hàng",
+    "buyer": "NGƯỜI MUA HÀNG",
+    "name": "Họ Và Tên",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "province": "Tỉnh/Thành phố:",
+    "district": "Quận/Huyện:",
+    "ward": "Phường/Xã",
+    "street": "Tên đường",
+    "useBuyerInfo": "Sử dụng thông tin người mua hàng",
+    "recipient": "NGƯỜI NHẬN HÀNG",
+    "shippingAddress": "ĐỊA CHỈ NHẬN HÀNG",
+    "shippingCompany": "ĐƠN VỊ GIAO HÀNG",
+    "shippingFee": "Gia hàng tận nơi có phi",
+    "freeShip": " Miễn phí vận chuyển cho đơn từ 500.000đ",
+    "paymentMethod": "HÌNH THỨC THANH TOÁN",
+    "cod": "Thanh toán khi nhận hàng",
+    "online": "Thanh toán trực tuyến",
+    "momo": "Thanh toán quy ví MoMo",
+    "zalo": "Thanh toán qua ZaloPay",
+    "orderInfo": "THÔNG TIN ĐƠN HÀNG",
+    "totalOrder": "Tổng tiền hàng",
+    "totalShippingFee": "Phí vận chuyển",
+    "tempFee": "Tạm Tính",
+    "totalPayment": "Thành tiền"
+  },
+  "contact": {
+    "title": "HÃY KẾT NỐI VỚI CHÚNG TÔI",
+    "contactInfo": "THÔNG TIN LIÊN HỆ",
+    "desc": "Bạn có đề xuất hoặc phản hồi? Chúng tôi rất sẵn sàng nghe ý kiến từ bạn! Sử dụng mẫu dưới đây để chia sẻ suy nghĩ của bạn. Cảm ơn bạn đã giúp chúng tôi cải thiện!",
+    "name": "Họ Và Tên:",
+    "email": "Email:",
+    "phone": "Số điện thoại:",
+    "address": "Địa chỉ:",
+    "message": "Tin nhắn",
+    "success": "Chúng tôi sẽ liên hệ để hỗ trợ bạn ngay khi có thể"
+  },
+  "favorite": {
+    "title": "Sản phẩm yêu thích",
+    "empty": "Bạn chưa thêm sản phẩm nào vào yêu thích"
+  },
+
+  "login": {
+    "title": "Đăng nhập",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "forgotPassword": "Quên mật khẩu?",
+    "register": "Tạo tài khoản",
+    "noAccount": "Bạn chưa có tài khoản?",
+    "toast": {
+      "success": "Đăng nhập thành công",
+      "failed": "Đăng nhập thất bại, vui lòng thử lại",
+      "error": "Có lỗi xảy ra, vui lòng thử lại"
+    }
+  },
+
+  "signUp": {
+    "title": "ĐĂNG KÝ",
+    "fullName": "Họ và tên",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "hasAccount": "Bạn đã có tài khoản?",
+    "loginNow": "Đăng nhập",
+    "submitBtn": "ĐĂNG KÝ",
+    "resetBtn": "LÀM LẠI",
+    "toast": {
+      "registerFailed": "Đăng ký thất bại vui lòng thử lại"
+    }
+  },
+  "productDetail": {
+    "productInfo": "Thông tin sản phẩm",
+    "comment": "Bình Luận",
+    "toast": {
+      "addProductToCartFailed": "Thêm sản phẩm vào giỏ hàng thất bại vui lòng thử lại"
+    },
+    "status": "Tình trạng tồn kho:",
+    "brand": "Thương hiệu:",
+    "productCode": "Mã sản phẩm:",
+    "addToCart": "THÊM VÀO GIỎ HÀNG",
+    "addToFavorite": "YÊU THÍCH",
+    "removeFromFavorite": "BỎ YÊU THÍCH",
+    "compare": "SO SÁNH",
+    "related": "SẢN PHẨM LIÊN QUAN",
+    "category": "Loại bánh:"
+  },
+  "products": {
+    "category": "Danh mục sản phẩm",
+    "price": "Giá sản phẩm",
+    "minPrice": "Giá tối thiểu",
+    "maxPrice": "Giá tối đa",
+    "brand": "Thương hiệu:",
+    "review": "Đánh giá",
+    "more": "Trở lên",
+    "displayBy": "Hiển thị theo",
+    "latest": "Mới nhất",
+    "bestSeller": "Bán chạy nhất",
+    "highestRating": "Đánh giá cao nhất",
+    "priceAsc": "Giá tăng dần",
+    "priceDesc": "Giá giảm dần"
+  },
+
+  "forgotPassword": {
+    "title": "QUÊN MẬT KHẨU",
+    "email": "Email",
+    "otpMessage": "* Chúng tôi sẽ gửi mã xác thực (OTP) đến địa chỉ email mà bạn đã cung cấp. Vui lòng kiểm tra hộp thư để tiếp tục quá trình đặt lại mật khẩu.",
+    "submitButton": "QUÊN MẬT KHẨU",
+    "loginNow": "- Đăng nhập ngay",
+    "noAccount": "- Bạn chưa có tài khoản?",
+    "signUpNow": "Đăng ký ngay",
+    "toast": {
+      "otpSuccess": "Chúng tôi đã gửi mã OTP đến email của bạn, vui lòng kiểm tra",
+      "forgotFailed": "Quên mật khẩu thất bại, vui lòng thử lại"
+    }
+  },
+  "verifyForgotOTP": {
+    "title": "Xác thực mã OTP",
+    "otpLabel": "Nhập mã OTP",
+    "otpPlaceholder": "Nhập 6 chữ số OTP",
+    "description": "* Vui lòng nhập mã OTP gồm 6 chữ số mà chúng tôi đã gửi đến địa chỉ email của bạn để hoàn tất quá trình xác thực.",
+    "verifyButton": "Xác thực mã OTP",
+    "backToLogin": "- Quay lại trang đăng nhập",
+    "noAccount": "- Bạn chưa có tài khoản?",
+    "signUp": "Đăng ký ngay",
+    "toast": {
+      "successMessage": "Mã OTP của bạn đã được xác thực thành công, vui lòng tiếp tục đặt lại mật khẩu",
+      "errorMessage": "Xác thực OTP thất bại, vui lòng thử lại"
+    }
+  },
+  "resetPassword": {
+    "title": "Đặt lại mật khẩu",
+    "newPassword": "Mật khẩu mới",
+    "confirmPassword": "Xác nhận mật khẩu mới",
+    "description": "* Hãy nhập mật khẩu mới và xác nhận lại để hoàn tất quá trình đặt lại mật khẩu của bạn.",
+    "submitButton": "Đặt lại mật khẩu",
+    "backToLogin": "- Quay lại trang đăng nhập",
+    "noAccount": "- Bạn chưa có tài khoản?",
+    "signUp": "Đăng ký ngay",
+    "successMessage": "Mật khẩu của bạn đã được đặt lại thành công",
+    "toast": {
+      "successMessage": "Mật khẩu của bạn đã được đặt lại thành công"
+    }
+  },
+  "chat": {
+    "title": "Chat với Admin",
+    "startConversation": "Bắt đầu cuộc trò chuyện với admin",
+    "typingMessage": "Nhập tin nhắn của bạn...",
+    "send": "Gửi",
+    "responseTime": "Chúng tôi thường phản hồi trong vòng vài phút",
+    "supportAvailable": "Hỗ trợ 24/7",
+    "toast": {
+      "messageSent": "Tin nhắn đã được gửi",
+      "messageError": "Không thể gửi tin nhắn, vui lòng thử lại"
+    }
+  }
+}

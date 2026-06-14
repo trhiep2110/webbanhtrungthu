@@ -1,0 +1,398 @@
+{
+  "common": {
+    "byNow": "BUY NOW",
+    "midAutumnFestival": "Mid Autumn Festival",
+    "register": "Register",
+    "showMore": "Show More",
+    "hidden": "Hide",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "saveChange": "Save Changes",
+    "checkout": "Checkout",
+    "send": "Send",
+    "continueShopping": "Continue Shopping",
+    "popularDishes": "POPULAR ITEMS",
+    "sweetCakes": "ENJOY SWEET MID-AUTUMN CAKES",
+    "showMenu": "View Menu",
+    "autumnCake": "Mooncake",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "apply": "Apply",
+    "search": "Search",
+    "logout": "Log Out",
+    "showMoreItem": "View More Products",
+    "showItemDetail": "View Product Details",
+    "toast": {
+      "hasErrorTryAgainLater": "An error occurred, please try again later"
+    },
+    "review": "Review",
+    "rating": {
+      "1": "1 Star",
+      "2": "2 Stars",
+      "3": "3 Stars",
+      "4": "4 Stars",
+      "5": "5 Stars"
+    },
+    "loginSuccess": "Login Successful",
+    "logoutSuccess": "Logout Successful"
+  },
+
+  "order": {
+    "noOrders": "You have no orders",
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "reject": "Rejected",
+      "shipping": "Shipping",
+      "success": "Completed",
+      "canceled": "Canceled"
+    },
+    "paymentStatus": {
+      "paid": "Paid",
+      "unpaid": "Unpaid"
+    },
+    "buyerName": "Buyer's Name",
+    "recipientName": "Recipient's Name",
+    "address": "Address",
+    "productTotal": "Total Product Cost",
+    "shippingFee": "Shipping Fee",
+    "totalAmount": "Total Order Amount",
+    "paymentMethod": "Payment Method",
+    "onlinePayment": "Online Payment",
+    "cashOnDelivery": "Cash on Delivery",
+    "productList": "Product List",
+    "cancel": "Cancel",
+    "proceedPayment": "Proceed to Payment",
+    "listTitle": "Your Order List",
+    "dialog": {
+      "title": "Add Review",
+      "content": "Review Content",
+      "rating": "Your Rating",
+      "submitLabel": "Submit Review",
+      "cancel": "Cancel",
+      "successful": "Review Added Successfully"
+    }
+  },
+
+  "validation": {
+    "required": "This field is required.",
+    "invalidEmail": "Invalid email.",
+    "invalidPhoneNumber": "Invalid phone number.",
+    "invalidOption": "Invalid option.",
+    "invalidPassword": "Password must be at least 6 characters.",
+    "invalidOTP": "OTP must be exactly 6 characters.",
+    "invalidConfirmPassword": "Confirm password does not match.",
+    "fullNameRequired": "Full name is required",
+    "fullNameMinLength": "Full name must be at least 4 characters",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 6 characters",
+    "confirmPasswordRequired": "Confirm password is required",
+    "confirmPasswordNotMatch": "Confirm password does not match"
+  },
+
+  "pageTitle": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "product": "Product",
+    "other": "Other",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "test": "TEST",
+    "cart": "Cart",
+    "search": "Search",
+    "checkout": "Checkout",
+    "forgot-password": "Forgot Password",
+    "verify-forgot-password-otp": "Verify OTP",
+    "reset-password": "Reset Password",
+    "profile": "Profile",
+    "me": "Your Information",
+    "viewed-products": "Viewed Products",
+    "change-password": "Change Password",
+    "order": "Your Orders",
+    "favorites": "Favorite Products List"
+  },
+
+  "viewedProducts": {
+    "title": "Viewed Products List"
+  },
+
+  "cart": {
+    "title": "Your Cart",
+    "total": "Total:",
+    "empty": "Your cart is empty",
+    "cartBtn": "Cart",
+    "checkoutBtn": "Checkout",
+    "unitPrice": "Unit Price",
+    "quantity": "Quantity",
+    "totalPrice": "Total Price",
+    "dialog": {
+      "title": "Confirm Removal",
+      "submitLabel": "Confirm",
+      "cancelLabel": "Cancel",
+      "desc": "Are you sure you want to remove this product from your cart?"
+    }
+  },
+
+  "shopInfo": {
+    "phoneNumber": "0966 859 061",
+    "address": "Hamlet 2, Lien Phuong, Thuong Tin, Hanoi",
+    "email": "Lenghia0183@gmail.com"
+  },
+
+  "footer": {
+    "itemList": {
+      "title": "Product Categories",
+      "item1": "Premium Golden Mooncake",
+      "item2": "Special 2-Egg Baked Mooncake",
+      "item3": "Green Mooncake",
+      "item4": "OREO Mooncake",
+      "item5": "1-Egg Baked Mooncake",
+      "item6": "Sticky Rice Mooncake"
+    },
+    "serviceList": {
+      "title": "Service Categories",
+      "service1": "Private Services",
+      "service2": "Customer Services"
+    },
+    "freeShipTitle": "Free Shipping",
+    "freeShipDesc": "For orders from 500k",
+    "paymentTitle": "Diverse Payment Options",
+    "paymentDesc": "Momo Wallet, ZaloPay, Mastercard,...",
+    "refundTitle": "Easy Returns",
+    "refundDesc": "Within 12 hours",
+    "copyRight": "Product of lenghia0183"
+  },
+
+  "banner": {
+    "title": "UNMISSABLE MOONCAKE FLAVORS",
+    "desc": "The national brand is the top choice for consumers",
+    "itemBtn": "PRODUCTS"
+  },
+
+  "home": {
+    "section1": {
+      "title1": "Premium Mooncakes",
+      "desc1": "Authentic mooncakes with perfect quality and standards",
+      "title2": "Premium Mooncakes",
+      "title3": "Premium Mooncakes"
+    },
+    "reason": {
+      "title": "Reasons",
+      "whyChoiceUs": "Why Choose Us",
+      "desc1": "We guarantee to deliver authentic Mid-Autumn mooncakes with the highest quality and standards to our customers.",
+      "desc2": "Valuing the meaning of the Mid-Autumn Festival, we continuously innovate and invest to introduce new product lines with the best quality and designs each year, contributing to a culturally rich Vietnamese Mid-Autumn Festival."
+    },
+    "saleItems": {
+      "title": "ATTRACTIVE OFFERS",
+      "desc": "Not overly elaborate, mooncakes carry a rustic, distinctive charm that captivates generations of consumers."
+    },
+    "email": {
+      "title": "Subscribe to Email for Promotions",
+      "inputPlaceholder": "Email address..."
+    }
+  },
+  "about": {
+    "introduction": "Introduction",
+    "mission": "Vision and Mission",
+    "staff": "Our Team",
+    "desc01": "We sincerely thank our customers for their support and trust in our products over time!",
+    "desc02": "This Mid-Autumn Festival, Kinh Do’s most impressive innovation is the premium Golden Moon collection. Symbolizing the treasures of life—family bonds and relationships—Kinh Do introduces the Golden Moon collection with entirely new products: Golden Moon Diamond, Golden Moon Platinum, Golden Moon Gold, Golden Moon Ruby, along with new flavors using premium ingredients such as Japanese scallops with X.O sauce, King Crab, Bách Hoa Lobster, and Four Seasons Roasted Chicken.",
+    "desc03": "We are also one of the brands voted by consumers as high-quality Vietnamese products. This success is thanks to the relentless efforts of our management, staff, and bakers in the market.",
+    "desc04": "Above all, we wish to extend our deepest gratitude to our customers for supporting our brand throughout the years. We believe that with our efforts and your continued support, we will keep growing to serve consumers even better.",
+    "desc05": "We aim to become the number one Mid-Autumn mooncake brand in Vietnam, committed to delivering premium, safe, and innovative products to satisfy every customer.",
+    "desc06": "Our mission is to continuously innovate, enhance quality, and provide exceptional experiences for customers with every product, fostering family bonds and relationships.",
+    "desc07": "We believe that success comes not only from providing quality products but also from dedication in every step of production, packaging, and customer service. Each mooncake we create is a work of art, embodying not just flavor but also love and respect for our customers.",
+    "desc08": "In the future, we will continue to develop and upgrade our production processes, applying modern technology to deliver the best experiences to consumers. At the same time, we are committed to environmental protection, optimizing resource use, and supporting sustainable development.",
+    "desc09": "Each product is not only a meaningful gift for the Mid-Autumn Festival but also a symbol of affection and connection that we wish to convey to every Vietnamese family. With a far-reaching vision and a steadfast mission, we aim to deliver lasting value, building trust and love from consumers.",
+    "desc10": "Not overly elaborate, mooncakes carry a rustic, distinctive charm that captivates generations of consumers."
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "submit": "Confirm",
+    "errors": {
+      "currentPasswordRequired": "Current password is required",
+      "newPasswordMin": "New password must be at least 6 characters",
+      "newPasswordRequired": "New password is required",
+      "confirmPasswordMismatch": "Confirm password does not match",
+      "confirmPasswordRequired": "Confirm password is required"
+    }
+  },
+  "profile": {
+    "title": "Account Information",
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "province": "Province/City:",
+    "district": "District:",
+    "ward": "Ward/Commune",
+    "street": "Street Name",
+    "updateAvatarSuccess": "Avatar updated successfully",
+    "sideBar": {
+      "accountInfo": "Account Information",
+      "changePassword": "Change Password",
+      "yourOrder": "Your Orders",
+      "viewedProduct": "Viewed Products",
+      "favoriteList": "Favorite List"
+    }
+  },
+  "checkout": {
+    "title": "Checkout",
+    "userInfo": "Customer Information",
+    "buyer": "BUYER",
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "province": "Province/City:",
+    "district": "District:",
+    "ward": "Ward/Commune",
+    "street": "Street Name",
+    "useBuyerInfo": "Use buyer's information",
+    "recipient": "RECIPIENT",
+    "shippingAddress": "SHIPPING ADDRESS",
+    "shippingCompany": "SHIPPING COMPANY",
+    "shippingFee": "Home delivery with fee",
+    "freeShip": "Free shipping for orders from 500,000 VND",
+    "paymentMethod": "PAYMENT METHOD",
+    "cod": "Cash on Delivery",
+    "online": "Online Payment",
+    "momo": "Payment via MoMo Wallet",
+    "zalo": "Payment via ZaloPay",
+    "orderInfo": "ORDER INFORMATION",
+    "totalOrder": "Total Order Amount",
+    "totalShippingFee": "Shipping Fee",
+    "tempFee": "Subtotal",
+    "totalPayment": "Total Payment"
+  },
+  "contact": {
+    "title": "CONNECT WITH US",
+    "contactInfo": "CONTACT INFORMATION",
+    "desc": "Have suggestions or feedback? We’re eager to hear from you! Use the form below to share your thoughts. Thank you for helping us improve!",
+    "name": "Full Name:",
+    "email": "Email:",
+    "phone": "Phone Number:",
+    "address": "Address:",
+    "message": "Message",
+    "success": "We will contact you to assist as soon as possible"
+  },
+  "favorite": {
+    "title": "Favorite Products",
+    "empty": "You haven’t added any products to your favorites"
+  },
+  "login": {
+    "title": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "register": "Create Account",
+    "noAccount": "Don’t have an account?",
+    "toast": {
+      "success": "Login successful",
+      "failed": "Login failed, please try again",
+      "error": "An error occurred, please try again"
+    }
+  },
+
+  "signUp": {
+    "title": "SIGN UP",
+    "fullName": "Full Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "hasAccount": "Already have an account?",
+    "loginNow": "Sign In",
+    "submitBtn": "SIGN UP",
+    "resetBtn": "RESET",
+    "toast": {
+      "registerFailed": "Registration failed, please try again"
+    }
+  },
+  "productDetail": {
+    "productInfo": "Product Information",
+    "comment": "Comments",
+    "toast": {
+      "addProductToCartFailed": "Failed to add product to cart, please try again"
+    },
+    "status": "Inventory Status:",
+    "brand": "Brand:",
+    "productCode": "Product Code:",
+    "addToCart": "ADD TO CART",
+    "addToFavorite": "ADD TO FAVORITES",
+    "removeFromFavorite": "REMOVE FROM FAVORITES",
+    "compare": "COMPARE",
+    "related": "RELATED PRODUCTS",
+    "category": "Category:"
+  },
+  "products": {
+    "category": "Product Categories",
+    "price": "Product Price",
+    "minPrice": "Minimum Price",
+    "maxPrice": "Maximum Price",
+    "brand": "Brand:",
+    "review": "Review",
+    "more": "And above",
+    "displayBy": "Sort By",
+    "latest": "Latest",
+    "bestSeller": "Best Seller",
+    "highestRating": "Highest Rated",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low"
+  },
+  "forgotPassword": {
+    "title": "FORGOT PASSWORD",
+    "email": "Email",
+    "otpMessage": "* We will send a verification code (OTP) to the email address you provided. Please check your inbox to continue the password reset process.",
+    "submitButton": "FORGOT PASSWORD",
+    "loginNow": "- Log in now",
+    "noAccount": "- Don’t have an account?",
+    "signUpNow": "Sign up now",
+    "toast": {
+      "otpSuccess": "We have sent an OTP to your email, please check",
+      "forgotFailed": "Forgot password failed, please try again"
+    }
+  },
+  "verifyForgotOTP": {
+    "title": "Verify OTP",
+    "otpLabel": "Enter OTP",
+    "otpPlaceholder": "Enter 6-digit OTP",
+    "description": "* Please enter the 6-digit OTP we sent to your email address to complete the verification process.",
+    "verifyButton": "Verify OTP",
+    "backToLogin": "- Back to login page",
+    "noAccount": "- Don’t have an account?",
+    "signUp": "Sign up now",
+    "toast": {
+      "successMessage": "Your OTP has been successfully verified, please proceed to reset your password",
+      "errorMessage": "OTP verification failed, please try again"
+    }
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "description": "* Please enter your new password and confirm it to complete the password reset process.",
+    "submitButton": "Reset Password",
+    "backToLogin": "- Back to login page",
+    "noAccount": "- Don’t have an account?",
+    "signUp": "Sign up now",
+    "successMessage": "Your password has been successfully reset",
+    "toast": {
+      "successMessage": "Your password has been successfully reset"
+    }
+  },
+  "chat": {
+    "title": "Chat with Admin",
+    "startConversation": "Start a conversation with admin",
+    "typingMessage": "Type your message...",
+    "send": "Send",
+    "responseTime": "We typically respond within a few minutes",
+    "supportAvailable": "24/7 Support",
+    "toast": {
+      "messageSent": "Message sent",
+      "messageError": "Unable to send message, please try again"
+    }
+  }
+}

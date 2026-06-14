@@ -1,0 +1,23 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 139 139"
+>
+  <line
+    x1="100"
+    y1="38.6"
+    x2="39"
+    y2="99.6"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="6"
+  />
+  <line
+    x1="100"
+    y1="99.6"
+    x2="39"
+    y2="38.6"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="6"
+  />
+</svg>

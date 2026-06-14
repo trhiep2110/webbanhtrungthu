@@ -1,0 +1,376 @@
+{
+  "common": {
+    "byNow": "立即购买",
+    "midAutumnFestival": "中秋节",
+    "register": "注册",
+    "showMore": "查看更多",
+    "hidden": "收起",
+    "loading": "加载中...",
+    "cancel": "取消",
+    "saveChange": "保存更改",
+    "checkout": "结账",
+    "send": "发送",
+    "continueShopping": "继续购物",
+    "popularDishes": "热门产品",
+    "sweetCakes": "品尝甜美中秋月饼",
+    "showMenu": "查看菜单",
+    "autumnCake": "月饼",
+    "inStock": "有货",
+    "outOfStock": "缺货",
+    "apply": "应用",
+    "search": "搜索",
+    "logout": "退出登录",
+    "showMoreItem": "查看更多产品",
+    "showItemDetail": "查看产品详情",
+    "toast": {
+      "hasErrorTryAgainLater": "发生错误，请稍后再试"
+    },
+    "review": "评价",
+    "rating": {
+      "1": "1星",
+      "2": "2星",
+      "3": "3星",
+      "4": "4星",
+      "5": "5星"
+    },
+    "loginSuccess": "登录成功",
+    "logoutSuccess": "退出登录成功"
+  },
+
+  "order": {
+    "noOrders": "您还没有任何订单",
+    "status": {
+      "pending": "待确认",
+      "confirmed": "已确认",
+      "reject": "已拒绝",
+      "shipping": "配送中",
+      "success": "已完成",
+      "canceled": "已取消"
+    },
+    "paymentStatus": {
+      "paid": "已支付",
+      "unpaid": "未支付"
+    },
+    "buyerName": "购买者姓名",
+    "recipientName": "收件人姓名",
+    "address": "地址",
+    "productTotal": "产品总价",
+    "shippingFee": "运费",
+    "totalAmount": "订单总金额",
+    "paymentMethod": "支付方式",
+    "onlinePayment": "在线支付",
+    "cashOnDelivery": "货到付款",
+    "productList": "产品列表",
+    "cancel": "取消",
+    "proceedPayment": "继续支付",
+    "listTitle": "您的订单列表",
+    "dialog": {
+      "title": "添加评价",
+      "content": "评价内容",
+      "rating": "您的评分",
+      "submitLabel": "提交评价",
+      "cancel": "取消",
+      "successful": "评价添加成功"
+    }
+  },
+
+  "validation": {
+    "required": "此字段为必填项。",
+    "invalidEmail": "电子邮件无效。",
+    "invalidPhoneNumber": "电话号码无效。",
+    "invalidOption": "选项无效。",
+    "invalidPassword": "密码必须至少6个字符。",
+    "invalidOTP": "OTP验证码必须为6个字符。",
+    "invalidConfirmPassword": "确认密码不匹配。"
+  },
+
+  "pageTitle": {
+    "home": "首页",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "product": "产品",
+    "other": "其他",
+    "signIn": "登录",
+    "signUp": "注册",
+    "test": "测试",
+    "cart": "购物车",
+    "search": "搜索",
+    "checkout": "结账",
+    "forgot-password": "忘记密码",
+    "verify-forgot-password-otp": "验证OTP",
+    "reset-password": "重置密码",
+    "profile": "个人资料",
+    "me": "您的信息",
+    "viewed-products": "已浏览产品",
+    "change-password": "更改密码",
+    "order": "您的订单",
+    "favorites": "收藏产品列表"
+  },
+
+  "viewedProducts": {
+    "title": "已浏览产品列表"
+  },
+
+  "cart": {
+    "title": "您的购物车",
+    "total": "总计：",
+    "empty": "您的购物车为空",
+    "cartBtn": "购物车",
+    "checkoutBtn": "结账",
+    "unitPrice": "单价",
+    "quantity": "数量",
+    "totalPrice": "总价",
+    "dialog": {
+      "title": "确认删除",
+      "submitLabel": "确认",
+      "cancelLabel": "取消",
+      "desc": "您确定要从购物车中删除此产品吗？"
+    }
+  },
+
+  "shopInfo": {
+    "phoneNumber": "0966 859 061",
+    "address": "越南河内常信连芳村2号",
+    "email": "Lenghia0183@gmail.com"
+  },
+
+  "footer": {
+    "itemList": {
+      "title": "产品分类",
+      "item1": "高级金月饼",
+      "item2": "特制双蛋烤月饼",
+      "item3": "绿色月饼",
+      "item4": "奥利奥月饼",
+      "item5": "单蛋烤月饼",
+      "item6": "糯米月饼"
+    },
+    "serviceList": {
+      "title": "服务分类",
+      "service1": "私人服务",
+      "service2": "客户服务"
+    },
+    "freeShipTitle": "免费配送",
+    "freeShipDesc": "订单金额满50万越南盾",
+    "paymentTitle": "多种支付方式",
+    "paymentDesc": "Momo钱包、ZaloPay、Mastercard等",
+    "refundTitle": "轻松退换",
+    "refundDesc": "12小时内",
+    "copyRight": "lenghia0183的产品"
+  },
+
+  "banner": {
+    "title": "不容错过的月饼风味",
+    "desc": "国民品牌，消费者的首选",
+    "itemBtn": "产品"
+  },
+
+  "home": {
+    "section1": {
+      "title1": "高级月饼",
+      "desc1": "正宗月饼，品质与标准完美",
+      "title2": "高级月饼",
+      "title3": "高级月饼"
+    },
+    "reason": {
+      "title": "理由",
+      "whyChoiceUs": "为什么选择我们",
+      "desc1": "我们保证向客户交付正宗中秋月饼，品质与标准达到最佳。",
+      "desc2": "珍视中秋节的意义，我们不断创新和投资，每年推出品质和设计最佳的新产品系列，为越南充满文化特色的中秋节做出贡献。"
+    },
+    "saleItems": {
+      "title": "优惠活动",
+      "desc": "不过分繁复，月饼带有质朴的独特魅力，吸引了无数代消费者。"
+    },
+    "email": {
+      "title": "订阅电子邮件以获取促销信息",
+      "inputPlaceholder": "电子邮件地址..."
+    }
+  },
+  "about": {
+    "introduction": "简介",
+    "mission": "愿景与使命",
+    "staff": "我们的团队",
+    "desc01": "我们衷心感谢客户长期以来对我们产品的支持与信任！",
+    "desc02": "今年的中秋节，京都在创新上的最大亮点是高端金月系列。以家庭纽带和人际关系为人生珍宝的象征，京都推出全新金月系列：金月钻石、金月铂金、金月黄金、金月红宝石，以及采用高端原料的新口味，如日本扇贝XO酱、皇帝蟹、百花龙虾和四季烤鸡。",
+    "desc03": "我们还是消费者评选为越南高品质产品的品牌之一。这一成功归功于管理层、员工和糕点师在市场上的不懈努力。",
+    "desc04": "最重要的是，我们希望向客户表达最诚挚的谢意，感谢您多年来对我们品牌的支持。我们相信，凭借我们的努力和您的持续支持，我们将不断发展，以更好地服务消费者。",
+    "desc05": "我们致力于成为越南第一的中秋月饼品牌，承诺提供高端、安全和创新的产品，满足每一位客户。",
+    "desc06": "我们的使命是不断创新，提升品质，为客户在每一款产品中带来绝佳体验，促进家庭纽带和人际关系。",
+    "desc07": "我们相信，成功不仅来自提供优质产品，还来自生产、包装和客户服务的每一个环节的用心。我们制作的每一块月饼都是一件艺术品，不仅包含风味，还包含对客户的爱与尊重。",
+    "desc08": "未来，我们将继续发展和升级生产流程，应用现代技术，为消费者带来最佳体验。同时，我们致力于保护环境，优化资源使用，支持可持续发展。",
+    "desc09": "每款产品不仅是中秋节的意义深远的礼物，还是我们希望传递给每个越南家庭的感情与联系的象征。凭借远大的愿景和坚定的使命，我们希望带来持久的价值，赢得消费者的信任与喜爱。",
+    "desc10": "不过分繁复，月饼带有质朴的独特魅力，吸引了无数代消费者。"
+  },
+  "changePassword": {
+    "title": "更改密码",
+    "currentPassword": "当前密码",
+    "newPassword": "新密码",
+    "confirmPassword": "确认密码",
+    "submit": "确认",
+    "errors": {
+      "currentPasswordRequired": "当前密码为必填项",
+      "newPasswordMin": "新密码必须至少6个字符",
+      "newPasswordRequired": "新密码为必填项",
+      "confirmPasswordMismatch": "确认密码不匹配",
+      "confirmPasswordRequired": "确认密码为必填项"
+    }
+  },
+  "profile": {
+    "title": "账户信息",
+    "name": "姓名",
+    "email": "电子邮件",
+    "phone": "电话号码",
+    "province": "省/市：",
+    "district": "区/县：",
+    "ward": "街道/乡镇",
+    "street": "街道名称",
+    "updateAvatarSuccess": "头像更新成功",
+    "sideBar": {
+      "accountInfo": "账户信息",
+      "changePassword": "更改密码",
+      "yourOrder": "您的订单",
+      "viewedProduct": "已浏览产品",
+      "favoriteList": "收藏列表"
+    }
+  },
+  "checkout": {
+    "title": "结账",
+    "userInfo": "客户信息",
+    "buyer": "购买者",
+    "name": "姓名",
+    "email": "电子邮件",
+    "phone": "电话号码",
+    "province": "省/市：",
+    "district": "区/县：",
+    "ward": "街道/乡镇",
+    "street": "街道名称",
+    "useBuyerInfo": "使用购买者信息",
+    "recipient": "收件人",
+    "shippingAddress": "配送地址",
+    "shippingCompany": "配送公司",
+    "shippingFee": "送货上门需付费",
+    "freeShip": "订单满50万越南盾免运费",
+    "paymentMethod": "支付方式",
+    "cod": "货到付款",
+    "online": "在线支付",
+    "momo": "通过Momo钱包支付",
+    "zalo": "通过ZaloPay支付",
+    "orderInfo": "订单信息",
+    "totalOrder": "订单总额",
+    "totalShippingFee": "运费",
+    "tempFee": "暂计",
+    "totalPayment": "总计"
+  },
+  "contact": {
+    "title": "与我们联系",
+    "contactInfo": "联系信息",
+    "desc": "有建议或反馈？我们非常愿意倾听您的意见！请使用下面的表单分享您的想法。感谢您帮助我们改进！",
+    "name": "姓名：",
+    "email": "电子邮件：",
+    "phone": "电话号码：",
+    "address": "地址：",
+    "message": "消息",
+    "success": "我们会尽快联系您以提供支持"
+  },
+  "favorite": {
+    "title": "收藏产品",
+    "empty": "您尚未将任何产品添加到收藏"
+  },
+  "login": {
+    "title": "登录",
+    "email": "电子邮件",
+    "password": "密码",
+    "forgotPassword": "忘记密码？",
+    "register": "创建账户",
+    "noAccount": "还没有账户？",
+    "toast": {
+      "success": "登录成功",
+      "failed": "登录失败，请重试",
+      "error": "发生错误，请重试"
+    }
+  },
+  "productDetail": {
+    "productInfo": "产品信息",
+    "comment": "评论",
+    "toast": {
+      "addProductToCartFailed": "添加产品到购物车失败，请重试"
+    },
+    "status": "库存状态：",
+    "brand": "品牌：",
+    "productCode": "产品编号：",
+    "addToCart": "加入购物车",
+    "addToFavorite": "添加到收藏",
+    "removeFromFavorite": "从收藏中移除",
+    "compare": "比较",
+    "related": "相关产品",
+    "category": "类别："
+  },
+  "products": {
+    "category": "产品分类",
+    "price": "产品价格",
+    "minPrice": "最低价格",
+    "maxPrice": "最高价格",
+    "brand": "品牌：",
+    "review": "评价",
+    "more": "及以上",
+    "displayBy": "排序方式",
+    "latest": "最新",
+    "bestSeller": "最畅销",
+    "highestRating": "最高评分",
+    "priceAsc": "价格：从低到高",
+    "priceDesc": "价格：从高到低"
+  },
+  "forgotPassword": {
+    "title": "忘记密码",
+    "email": "电子邮件",
+    "otpMessage": "* 我们将向您提供的电子邮件地址发送验证码（OTP）。请检查您的收件箱以继续密码重置流程。",
+    "submitButton": "忘记密码",
+    "loginNow": "- 立即登录",
+    "noAccount": "- 还没有账户？",
+    "signUpNow": "立即注册",
+    "toast": {
+      "otpSuccess": "我们已向您的电子邮件发送了OTP，请检查",
+      "forgotFailed": "忘记密码失败，请重试"
+    }
+  },
+  "verifyForgotOTP": {
+    "title": "验证OTP",
+    "otpLabel": "输入OTP",
+    "otpPlaceholder": "输入6位数字OTP",
+    "description": "* 请输入我们发送到您电子邮件地址的6位数字OTP，以完成验证过程。",
+    "verifyButton": "验证OTP",
+    "backToLogin": "- 返回登录页面",
+    "noAccount": "- 还没有账户？",
+    "signUp": "立即注册",
+    "toast": {
+      "successMessage": "您的OTP已成功验证，请继续重置密码",
+      "errorMessage": "OTP验证失败，请重试"
+    }
+  },
+  "resetPassword": {
+    "title": "重置密码",
+    "newPassword": "新密码",
+    "confirmPassword": "确认新密码",
+    "description": "* 请输入您的新密码并确认以完成密码重置流程。",
+    "submitButton": "重置密码",
+    "backToLogin": "- 返回登录页面",
+    "noAccount": "- 还没有账户？",
+    "signUp": "立即注册",
+    "successMessage": "您的密码已成功重置",
+    "toast": {
+      "successMessage": "您的密码已成功重置"
+    }
+  },
+  "chat": {
+    "title": "与管理员聊天",
+    "startConversation": "与管理员开始对话",
+    "typingMessage": "输入您的消息...",
+    "send": "发送",
+    "responseTime": "我们通常在几分钟内回复",
+    "supportAvailable": "24/7支持",
+    "toast": {
+      "messageSent": "消息已发送",
+      "messageError": "无法发送消息，请重试"
+    }
+  }
+}

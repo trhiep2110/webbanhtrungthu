@@ -1,0 +1,376 @@
+{
+  "common": {
+    "byNow": "今すぐ購入",
+    "midAutumnFestival": "中秋節",
+    "register": "登録",
+    "showMore": "もっと見る",
+    "hidden": "閉じる",
+    "loading": "読み込み中...",
+    "cancel": "キャンセル",
+    "saveChange": "変更を保存",
+    "checkout": "チェックアウト",
+    "send": "送信",
+    "continueShopping": "買い物を続ける",
+    "popularDishes": "人気の商品",
+    "sweetCakes": "甘い中秋月餅を楽しむ",
+    "showMenu": "メニューを見る",
+    "autumnCake": "月餅",
+    "inStock": "在庫あり",
+    "outOfStock": "在庫切れ",
+    "apply": "適用",
+    "search": "検索",
+    "logout": "ログアウト",
+    "showMoreItem": "商品をもっと見る",
+    "showItemDetail": "商品の詳細を見る",
+    "toast": {
+      "hasErrorTryAgainLater": "エラーが発生しました。後でもう一度お試しください"
+    },
+    "review": "レビュー",
+    "rating": {
+      "1": "1つ星",
+      "2": "2つ星",
+      "3": "3つ星",
+      "4": "4つ星",
+      "5": "5つ星"
+    },
+    "loginSuccess": "ログイン成功",
+    "logoutSuccess": "ログアウト成功"
+  },
+
+  "order": {
+    "noOrders": "注文がありません",
+    "status": {
+      "pending": "確認待ち",
+      "confirmed": "確認済み",
+      "reject": "拒否",
+      "shipping": "配送中",
+      "success": "完了",
+      "canceled": "キャンセル済み"
+    },
+    "paymentStatus": {
+      "paid": "支払い済み",
+      "unpaid": "未支払い"
+    },
+    "buyerName": "購入者名",
+    "recipientName": "受取人名",
+    "address": "住所",
+    "productTotal": "商品合計",
+    "shippingFee": "送料",
+    "totalAmount": "注文合計金額",
+    "paymentMethod": "支払い方法",
+    "onlinePayment": "オンライン決済",
+    "cashOnDelivery": "代金引換",
+    "productList": "商品リスト",
+    "cancel": "キャンセル",
+    "proceedPayment": "支払いを進める",
+    "listTitle": "あなたの注文リスト",
+    "dialog": {
+      "title": "レビューを追加",
+      "content": "レビュー内容",
+      "rating": "あなたの評価",
+      "submitLabel": "レビューを送信",
+      "cancel": "キャンセル",
+      "successful": "レビューが正常に追加されました"
+    }
+  },
+
+  "validation": {
+    "required": "このフィールドは必須です。",
+    "invalidEmail": "無効なメールアドレスです。",
+    "invalidPhoneNumber": "無効な電話番号です。",
+    "invalidOption": "無効なオプションです。",
+    "invalidPassword": "パスワードは6文字以上である必要があります。",
+    "invalidOTP": "OTPは6文字でなければなりません。",
+    "invalidConfirmPassword": "確認パスワードが一致しません。"
+  },
+
+  "pageTitle": {
+    "home": "ホーム",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "product": "商品",
+    "other": "その他",
+    "signIn": "ログイン",
+    "signUp": "登録",
+    "test": "テスト",
+    "cart": "カート",
+    "search": "検索",
+    "checkout": "チェックアウト",
+    "forgot-password": "パスワードを忘れた",
+    "verify-forgot-password-otp": "OTPを検証",
+    "reset-password": "パスワードをリセット",
+    "profile": "プロフィール",
+    "me": "あなたの情報",
+    "viewed-products": "閲覧した商品",
+    "change-password": "パスワード変更",
+    "order": "あなたの注文",
+    "favorites": "お気に入り商品リスト"
+  },
+
+  "viewedProducts": {
+    "title": "閲覧した商品リスト"
+  },
+
+  "cart": {
+    "title": "あなたのカート",
+    "total": "合計：",
+    "empty": "カートは空です",
+    "cartBtn": "カート",
+    "checkoutBtn": "チェックアウト",
+    "unitPrice": "単価",
+    "quantity": "数量",
+    "totalPrice": "合計金額",
+    "dialog": {
+      "title": "削除の確認",
+      "submitLabel": "確認",
+      "cancelLabel": "キャンセル",
+      "desc": "この商品をカートから削除しますか？"
+    }
+  },
+
+  "shopInfo": {
+    "phoneNumber": "0966 859 061",
+    "address": "ベトナム・ハノイ・トゥオン・ティン・リエン・フオン村2",
+    "email": "Lenghia0183@gmail.com"
+  },
+
+  "footer": {
+    "itemList": {
+      "title": "商品カテゴリ",
+      "item1": "プレミアムゴールデン月餅",
+      "item2": "特別2卵焼き月餅",
+      "item3": "グリーン月餅",
+      "item4": "オレオ月餅",
+      "item5": "1卵焼き月餅",
+      "item6": "もち米月餅"
+    },
+    "serviceList": {
+      "title": "サービスカテゴリ",
+      "service1": "プライベートサービス",
+      "service2": "カスタマーサービス"
+    },
+    "freeShipTitle": "無料配送",
+    "freeShipDesc": "50万ベトナムドン以上の注文で",
+    "paymentTitle": "多様な支払いオプション",
+    "paymentDesc": "Momoウォレット、ZaloPay、Mastercardなど",
+    "refundTitle": "簡単な返品",
+    "refundDesc": "12時間以内",
+    "copyRight": "lenghia0183の製品"
+  },
+
+  "banner": {
+    "title": "見逃せない月餅の風味",
+    "desc": "国民的ブランド、消費者の第一の選択",
+    "itemBtn": "商品"
+  },
+
+  "home": {
+    "section1": {
+      "title1": "プレミアム月餅",
+      "desc1": "本物の月餅、完璧な品質と基準",
+      "title2": "プレミアム月餅",
+      "title3": "プレミアム月餅"
+    },
+    "reason": {
+      "title": "理由",
+      "whyChoiceUs": "なぜ私たちを選ぶのか",
+      "desc1": "私たちはお客様に最高の品質と基準の正真正銘の中秋月餅をお届けすることを保証します。",
+      "desc2": "中秋節の意義を大切にし、毎年最高の品質とデザインの新商品シリーズを導入するために、継続的に革新と投資を行い、ベトナムの文化豊かな中秋節に貢献しています。"
+    },
+    "saleItems": {
+      "title": "魅力的なオファー",
+      "desc": "過度に凝ったものではなく、月餅は素朴で独特の魅力を持ち、何世代にもわたり消費者の心を掴んでいます。"
+    },
+    "email": {
+      "title": "プロモーション情報を受信するためにメールを登録",
+      "inputPlaceholder": "メールアドレス..."
+    }
+  },
+  "about": {
+    "introduction": "紹介",
+    "mission": "ビジョンとミッション",
+    "staff": "私たちのチーム",
+    "desc01": "これまで当社の製品を支持し信頼してくれてありがとう！",
+    "desc02": "今年の中秋節、キンドーの最も印象的な革新はプレミアムゴールデン月シリーズです。家族の絆や人間関係という人生の宝を象徴し、キンドーは全く新しいゴールデン月シリーズを紹介します：ゴールデン月ダイヤモンド、ゴールデン月プラチナ、ゴールデン月ゴールド、ゴールデン月ルビー、そして日本産ホタテXOソース、皇帝蟹、百花ロブスター、四季ローストチキンなどの高級食材を使用した新しい風味。",
+    "desc03": "私たちは消費者が選ぶ高品質のベトナム製品のブランドの一つでもあります。この成功は、経営陣、スタッフ、菓子職人の市場でのたゆまぬ努力によるものです。",
+    "desc04": "何よりも、これまで当ブランドを支えてくれたお客様に心からの感謝を申し上げます。私たちの努力とお客様の継続的なサポートにより、消費者により良いサービスを提供するために成長し続けると信じています。",
+    "desc05": "私たちはベトナムでナンバーワンの中秋月餅ブランドになることを目指し、すべての顧客を満足させる高級で安全かつ革新的な製品を提供することを約束します。",
+    "desc06": "私たちの使命は、革新を続け、品質を高め、家族の絆や人間関係のために、すべての製品で素晴らしい体験をお客様に提供することです。",
+    "desc07": "成功は高品質の製品を提供するだけでなく、生産、包装、顧客サービスのすべての段階における献身から来ると信じています。私たちが作る月餅は、風味だけでなく、お客様への愛と尊敬を込めた芸術作品です。",
+    "desc08": "今後、生産プロセスの開発とアップグレードを続け、最新技術を適用して消費者に最高の体験を提供します。同時に、環境保護、資源の最適化、持続可能な開発への取り組みを約束します。",
+    "desc09": "各製品は中秋節の意味深い贈り物であるだけでなく、すべてのベトナム家庭に伝えたい愛情とつながりの象徴です。遠大なビジョンと確固たる使命で、消費者の信頼と愛を得る持続的な価値を提供することを目指します。",
+    "desc10": "過度に凝ったものではなく、月餅は素朴で独特の魅力を持ち、何世代にもわたり消費者の心を掴んでいます。"
+  },
+  "changePassword": {
+    "title": "パスワード変更",
+    "currentPassword": "現在のパスワード",
+    "newPassword": "新しいパスワード",
+    "confirmPassword": "パスワード確認",
+    "submit": "確認",
+    "errors": {
+      "currentPasswordRequired": "現在のパスワードは必須です",
+      "newPasswordMin": "新しいパスワードは6文字以上である必要があります",
+      "newPasswordRequired": "新しいパスワードは必須です",
+      "confirmPasswordMismatch": "確認パスワードが一致しません",
+      "confirmPasswordRequired": "パスワード確認は必須です"
+    }
+  },
+  "profile": {
+    "title": "アカウント情報",
+    "name": "氏名",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "province": "都道府県：",
+    "district": "地区：",
+    "ward": "町/村",
+    "street": "通り名",
+    "updateAvatarSuccess": "アバターの更新に成功しました",
+    "sideBar": {
+      "accountInfo": "アカウント情報",
+      "changePassword": "パスワード変更",
+      "yourOrder": "あなたの注文",
+      "viewedProduct": "閲覧した商品",
+      "favoriteList": "お気に入りリスト"
+    }
+  },
+  "checkout": {
+    "title": "チェックアウト",
+    "userInfo": "顧客情報",
+    "buyer": "購入者",
+    "name": "氏名",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "province": "都道府県：",
+    "district": "地区：",
+    "ward": "町/村",
+    "street": "通り名",
+    "useBuyerInfo": "購入者の情報を使用",
+    "recipient": "受取人",
+    "shippingAddress": "配送先住所",
+    "shippingCompany": "配送会社",
+    "shippingFee": "宅配には料金がかかります",
+    "freeShip": "50万ベトナムドン以上の注文で送料無料",
+    "paymentMethod": "支払い方法",
+    "cod": "代金引換",
+    "online": "オンライン決済",
+    "momo": "Momoウォレットで支払う",
+    "zalo": "ZaloPayで支払う",
+    "orderInfo": "注文情報",
+    "totalOrder": "注文合計",
+    "totalShippingFee": "送料",
+    "tempFee": "仮計算",
+    "totalPayment": "合計金額"
+  },
+  "contact": {
+    "title": "私たちとつながる",
+    "contactInfo": "連絡先情報",
+    "desc": "ご提案やフィードバックはありますか？ぜひお聞かせください！以下のフォームを使用してご意見を共有してください。改善にご協力いただきありがとう！",
+    "name": "氏名：",
+    "email": "メールアドレス：",
+    "phone": "電話番号：",
+    "address": "住所：",
+    "message": "メッセージ",
+    "success": "できるだけ早くご連絡し、サポートいたします"
+  },
+  "favorite": {
+    "title": "お気に入り商品",
+    "empty": "お気に入りに商品を追加していません"
+  },
+  "login": {
+    "title": "ログイン",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "forgotPassword": "パスワードを忘れた？",
+    "register": "アカウント作成",
+    "noAccount": "アカウントをお持ちでない？",
+    "toast": {
+      "success": "ログイン成功",
+      "failed": "ログインに失敗しました。もう一度お試しください",
+      "error": "エラーが発生しました。もう一度お試しください"
+    }
+  },
+  "productDetail": {
+    "productInfo": "商品情報",
+    "comment": "コメント",
+    "toast": {
+      "addProductToCartFailed": "カートに商品を追加できませんでした。もう一度お試しください"
+    },
+    "status": "在庫状況：",
+    "brand": "ブランド：",
+    "productCode": "商品コード：",
+    "addToCart": "カートに追加",
+    "addToFavorite": "お気に入りに追加",
+    "removeFromFavorite": "お気に入りから削除",
+    "compare": "比較",
+    "related": "関連商品",
+    "category": "カテゴリ："
+  },
+  "products": {
+    "category": "商品カテゴリ",
+    "price": "商品価格",
+    "minPrice": "最低価格",
+    "maxPrice": "最高価格",
+    "brand": "ブランド：",
+    "review": "レビュー",
+    "more": "以上",
+    "displayBy": "並び替え",
+    "latest": "最新",
+    "bestSeller": "ベストセラー",
+    "highestRating": "最高評価",
+    "priceAsc": "価格：安い順",
+    "priceDesc": "価格：高い順"
+  },
+  "forgotPassword": {
+    "title": "パスワードを忘れた",
+    "email": "メールアドレス",
+    "otpMessage": "* ご提供いただいたメールアドレスに認証コード（OTP）を送信します。パスワードリセット手続きを進めるために、受信トレイをご確認ください。",
+    "submitButton": "パスワードを忘れた",
+    "loginNow": "- 今すぐログイン",
+    "noAccount": "- アカウントをお持ちでない？",
+    "signUpNow": "今すぐ登録",
+    "toast": {
+      "otpSuccess": "OTPをメールに送信しました。ご確認ください",
+      "forgotFailed": "パスワードリセットに失敗しました。もう一度お試しください"
+    }
+  },
+  "verifyForgotOTP": {
+    "title": "OTPを検証",
+    "otpLabel": "OTPを入力",
+    "otpPlaceholder": "6桁のOTPを入力",
+    "description": "* メールアドレスに送信された6桁のOTPを入力して、検証プロセスを完了してください。",
+    "verifyButton": "OTPを検証",
+    "backToLogin": "- ログインページに戻る",
+    "noAccount": "- アカウントをお持ちでない？",
+    "signUp": "今すぐ登録",
+    "toast": {
+      "successMessage": "OTPが正常に検証されました。パスワードリセットを続けてください",
+      "errorMessage": "OTP検証に失敗しました。もう一度お試しください"
+    }
+  },
+  "resetPassword": {
+    "title": "パスワードをリセット",
+    "newPassword": "新しいパスワード",
+    "confirmPassword": "新しいパスワードの確認",
+    "description": "* 新しいパスワードを入力し、確認してパスワードリセットプロセスを完了してください。",
+    "submitButton": "パスワードをリセット",
+    "backToLogin": "- ログインページに戻る",
+    "noAccount": "- アカウントをお持ちでない？",
+    "signUp": "今すぐ登録",
+    "successMessage": "パスワードが正常にリセットされました",
+    "toast": {
+      "successMessage": "パスワードが正常にリセットされました"
+    }
+  },
+  "chat": {
+    "title": "管理者とチャット",
+    "startConversation": "管理者との会話を開始",
+    "typingMessage": "メッセージを入力...",
+    "send": "送信",
+    "responseTime": "通常、数分以内に返信します",
+    "supportAvailable": "24時間365日サポート",
+    "toast": {
+      "messageSent": "メッセージが送信されました",
+      "messageError": "メッセージを送信できませんでした。もう一度お試しください"
+    }
+  }
+}
