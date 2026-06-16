@@ -9,8 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    @vite(['resources/css/app.css', 'resources/css/admin.css', 'resources/js/app.js'])
-    @stack('styles')
+    <!-- Main styles -->
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <!-- Responsive styles -->
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
 </head>
 
 <body class="admin-body">
@@ -148,58 +150,58 @@
 
     @stack('scripts')
     <script>
-        // ===== CLOCK =====
-        function updateClock() {
-            const now = new Date();
-            document.getElementById('admin-clock').textContent = now.toLocaleTimeString('vi-VN');
-            document.getElementById('admin-date').textContent = now.toLocaleDateString('vi-VN', {
-                weekday: 'long',
-                day: 'numeric',
-                month: 'long',
-                year: 'numeric'
-            });
+    // ===== CLOCK =====
+    function updateClock() {
+        const now = new Date();
+        document.getElementById('admin-clock').textContent = now.toLocaleTimeString('vi-VN');
+        document.getElementById('admin-date').textContent = now.toLocaleDateString('vi-VN', {
+            weekday: 'long',
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric'
+        });
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    // ===== TOGGLE SIDEBAR =====
+    let sidebarExpanded = true;
+
+    function toggleSidebar() {
+        sidebarExpanded = !sidebarExpanded;
+        const sidebar = document.getElementById('admin-sidebar');
+        const main = document.getElementById('admin-main');
+        const btn = document.getElementById('toggle-btn');
+        if (sidebarExpanded) {
+            sidebar.classList.remove('collapsed');
+            main.classList.remove('expanded');
+            btn.style.transform = 'rotate(0deg)';
+        } else {
+            sidebar.classList.add('collapsed');
+            main.classList.add('expanded');
+            btn.style.transform = 'rotate(180deg)';
         }
-        updateClock();
-        setInterval(updateClock, 1000);
+    }
 
-        // ===== TOGGLE SIDEBAR =====
-        let sidebarExpanded = true;
-
-        function toggleSidebar() {
-            sidebarExpanded = !sidebarExpanded;
-            const sidebar = document.getElementById('admin-sidebar');
-            const main = document.getElementById('admin-main');
-            const btn = document.getElementById('toggle-btn');
-            if (sidebarExpanded) {
-                sidebar.classList.remove('collapsed');
-                main.classList.remove('expanded');
-                btn.style.transform = 'rotate(0deg)';
-            } else {
-                sidebar.classList.add('collapsed');
-                main.classList.add('expanded');
-                btn.style.transform = 'rotate(180deg)';
-            }
-        }
-
-        // ===== LOAD ADMIN USER =====
-        function loadAdminUser() {
-            const user = getUser();
-            if (!user || user.role !== 'admin') {
-                window.location.href = '/dang-nhap';
-                return;
-            }
-            document.getElementById('admin-username').textContent = user.fullname;
-            document.getElementById('admin-avatar').src = user.avatar || '/assets/images/default.avif';
-        }
-
-        function adminLogout() {
-            authAPI.logout();
-            localStorage.removeItem('access_token');
-            localStorage.removeItem('user');
+    // ===== LOAD ADMIN USER =====
+    function loadAdminUser() {
+        const user = getUser();
+        if (!user || user.role !== 'admin') {
             window.location.href = '/dang-nhap';
+            return;
         }
+        document.getElementById('admin-username').textContent = user.fullname;
+        document.getElementById('admin-avatar').src = user.avatar || '/assets/images/default.avif';
+    }
 
-        loadAdminUser();
+    function adminLogout() {
+        authAPI.logout();
+        localStorage.removeItem('access_token');
+        localStorage.removeItem('user');
+        window.location.href = '/dang-nhap';
+    }
+
+    loadAdminUser();
     </script>
 </body>
 

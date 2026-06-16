@@ -113,7 +113,7 @@
                         @endforeach
                     </ul>
                 </div>
-
+                <img src="{{ asset('assets/images/product-filter.jpg') }}" alt="Banner">
             </aside>
 
             {{-- DANH SÁCH SẢN PHẨM --}}

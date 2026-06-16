@@ -1,0 +1,11 @@
+/*laptop*/
+@media screen and (max-width: 1550px) {}
+
+/*ipad pro*/
+@media screen and (max-width: 1110px) {}
+
+/*ipad*/
+@media screen and (max-width: 967px) {}
+
+/*mobile*/
+@media screen and (max-width: 767px) {}

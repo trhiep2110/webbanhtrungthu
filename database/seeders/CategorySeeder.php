@@ -41,6 +41,6 @@ class CategorySeeder extends Seeder
             Category::updateOrCreate(['name' => $category['name']], $category);
         }
 
-        $this->command->info('✅ CategorySeeder: Tạo ' . count($categories) . ' danh mục thành công!');
+        $this->command->info('CategorySeeder: Tạo ' . count($categories) . ' danh mục thành công!');
     }
 }

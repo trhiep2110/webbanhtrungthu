@@ -22,6 +22,6 @@ class ManufacturerSeeder extends Seeder
             Manufacturer::updateOrCreate(['name' => $manufacturer['name']], $manufacturer);
         }
 
-        $this->command->info('✅ ManufacturerSeeder: Tạo ' . count($manufacturers) . ' thương hiệu thành công!');
+        $this->command->info('ManufacturerSeeder: Tạo ' . count($manufacturers) . ' thương hiệu thành công!');
     }
 }

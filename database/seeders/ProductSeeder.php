@@ -176,6 +176,6 @@ class ProductSeeder extends Seeder
             );
         }
 
-        $this->command->info('✅ ProductSeeder: Tạo ' . count($products) . ' sản phẩm mẫu thành công!');
+        $this->command->info('ProductSeeder: Tạo ' . count($products) . ' sản phẩm mẫu thành công!');
     }
 }
