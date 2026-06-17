@@ -1,5 +1,5 @@
 // ===== CẤU HÌNH API =====
-const API_URL = '/api/v1';
+const API_URL = '';
 
 // ===== TOKEN MANAGEMENT =====
 const getToken = () => localStorage.getItem('access_token');
