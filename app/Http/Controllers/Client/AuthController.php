@@ -27,7 +27,12 @@ class AuthController extends Controller
 
     public function forgotForm()
     {
-        return view('client.forgot-password');
+        return view('client.auth.forgot-password');
+    }
+
+    public function resetForm()
+    {
+        return view('client.auth.reset-password');
     }
 
     // ===== XỬ LÝ ĐĂNG KÝ =====
@@ -72,51 +77,6 @@ class AuthController extends Controller
 
         return redirect('/dang-nhap')
             ->with('success', 'Đăng ký thành công! Vui lòng đăng nhập.');
-    }
-
-    // ===== XỬ LÝ ĐĂNG NHẬP =====
-    public function login(Request $request)
-    {
-        $validator = Validator::make($request->all(), [
-            'email'    => 'required|email',
-            'password' => 'required|string',
-        ], [
-            'email.required'    => 'Vui lòng nhập email!',
-            'email.email'       => 'Email không hợp lệ!',
-            'password.required' => 'Vui lòng nhập mật khẩu!',
-        ]);
-
-        if ($validator->fails()) {
-            return back()->withErrors($validator)->withInput();
-        }
-
-        $user = User::where('email', $request->email)->first();
-
-        if (!$user || !Hash::check($request->password, $user->password)) {
-            return back()
-                ->with('error', 'Email hoặc mật khẩu không đúng!')
-                ->withInput();
-        }
-
-        if ($user->is_locked) {
-            return back()->with('error', 'Tài khoản đã bị khóa!');
-        }
-
-        $user->update(['last_active' => now()]);
-
-        // Lưu token vào session
-        $token = $user->createToken('access_token')->plainTextToken;
-
-        session([
-            'user'         => $user,
-            'access_token' => $token,
-        ]);
-
-        if ($user->role === 'admin') {
-            return redirect('/admin')->with('success', 'Đăng nhập thành công!');
-        }
-
-        return redirect('/')->with('success', 'Đăng nhập thành công!');
     }
 
     // ===== ĐĂNG XUẤT =====
@@ -192,6 +152,132 @@ class AuthController extends Controller
                 'access_token' => $token,
                 'user'         => $user,
             ],
+        ]);
+    }
+
+
+    // ===== XỬ LÝ ĐĂNG NHẬP =====
+    public function login(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'email'    => 'required|email',
+            'password' => 'required|string',
+        ], [
+            'email.required'    => 'Vui lòng nhập email!',
+            'email.email'       => 'Email không hợp lệ!',
+            'password.required' => 'Vui lòng nhập mật khẩu!',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json(['code' => 400, 'message' => $validator->errors()->first()], 400);
+        }
+
+        $user = User::where('email', $request->email)->first();
+
+        if (!$user || !Hash::check($request->password, $user->password)) {
+            return response()->json(['code' => 401, 'message' => 'Email hoặc mật khẩu không đúng!'], 401);
+        }
+
+        if ($user->is_locked) {
+            return response()->json(['code' => 403, 'message' => 'Tài khoản đã bị khóa!'], 403);
+        }
+
+        $user->update(['last_active' => now()]);
+        $token = $user->createToken('access_token')->plainTextToken;
+
+        session(['user' => $user, 'access_token' => $token]);
+
+        return response()->json([
+            'code'    => 200,
+            'message' => 'Đăng nhập thành công!',
+            'role'    => $user->role,
+        ]);
+    }
+
+    // ===== GỬI OTP QUÊN MẬT KHẨU =====
+    public function forgotPassword(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'email' => 'required|email|exists:users,email',
+        ], [
+            'email.required' => 'Vui lòng nhập email!',
+            'email.email'    => 'Email không hợp lệ!',
+            'email.exists'   => 'Email không tồn tại trong hệ thống!',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json(['code' => 400, 'message' => $validator->errors()->first()], 400);
+        }
+
+        Otp::where('email', $request->email)->where('type', 'forgot password')->delete();
+
+        $otpCode = rand(100000, 999999);
+
+        Otp::create([
+            'email'      => $request->email,
+            'otp'        => $otpCode,
+            'type'       => 'forgot password',
+            'expires_at' => now()->addMinutes(5),
+        ]);
+
+        try {
+            Mail::send('emails.otp', ['otp' => $otpCode, 'type' => 'forgot password'], function ($mail) use ($request) {
+                $mail->to($request->email)->subject('Đặt Lại Mật Khẩu - Bánh Trung Thu');
+            });
+        } catch (\Exception $e) {
+            return response()->json(['code' => 500, 'message' => 'Không thể gửi email! Lỗi: ' . $e->getMessage()], 500);
+        }
+
+        session(['reset_email' => $request->email]);
+
+        return response()->json([
+            'code'    => 200,
+            'message' => 'Mã OTP đã được gửi đến email của bạn!',
+            'redirect' => '/dat-lai-mat-khau',
+        ]);
+    }
+
+    // ===== XÁC THỰC OTP & ĐẶT LẠI MẬT KHẨU =====
+    public function resetPassword(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'otp'      => 'required|string',
+            'password' => 'required|string|min:6',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json(['code' => 400, 'message' => $validator->errors()->first()], 400);
+        }
+
+        if ($request->password !== $request->password_confirmation) {
+            return response()->json(['code' => 400, 'message' => 'Mật khẩu xác nhận không khớp!'], 400);
+        }
+
+        $email = session('reset_email');
+
+        if (!$email) {
+            return response()->json(['code' => 400, 'message' => 'Phiên làm việc đã hết hạn! Vui lòng thử lại từ đầu.'], 400);
+        }
+
+        $otp = Otp::where('email', $email)
+            ->where('otp', $request->otp)
+            ->where('type', 'forgot password')
+            ->where('expires_at', '>', now())
+            ->first();
+
+        if (!$otp) {
+            return response()->json(['code' => 400, 'message' => 'Mã OTP không đúng hoặc đã hết hạn!'], 400);
+        }
+
+        User::where('email', $email)->update(['password' => Hash::make($request->password)]);
+
+        $otp->delete();
+        session()->forget('reset_email');
+
+        return response()->json([
+            'code'    => 200,
+            'message' => 'Đặt lại mật khẩu thành công!',
+            'redirect' => '/dang-nhap',
         ]);
     }
 }

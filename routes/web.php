@@ -28,11 +28,16 @@ Route::get('/yeu-thich', [ProfileController::class, 'favorites']);
 // ===== AUTH =====
 Route::get('/dang-nhap', [AuthController::class, 'loginForm'])->name('login');
 Route::post('/dang-nhap', [AuthController::class, 'login']);
-Route::get('/dang-ky', [AuthController::class, 'registerForm']);
+Route::get('/dang-ky', [AuthController::class, 'registerForm'])->name('register');
 Route::post('/dang-ky', [AuthController::class, 'register']);
 Route::post('/dang-xuat', [AuthController::class, 'logout'])->name('logout');
 Route::post('/dang-nhap-google', [AuthController::class, 'loginGoogle']);
-Route::get('/quen-mat-khau', [AuthController::class, 'forgotForm']);
+
+Route::get('/quen-mat-khau', [AuthController::class, 'forgotForm'])->name('password.request');
+Route::post('/quen-mat-khau', [AuthController::class, 'forgotPassword']);
+Route::get('/dat-lai-mat-khau', [AuthController::class, 'resetForm']);
+Route::post('/dat-lai-mat-khau', [AuthController::class, 'resetPassword']);
+Route::post('/gui-lai-otp', [AuthController::class, 'resendOtp']);
 
 // ===== ADMIN =====
 Route::prefix('admin')->group(function () {

@@ -14,7 +14,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('otp', 10);
             $table->enum('type', ['verify email', 'forgot password']);
-            $table->timestamp('expires_at'); // thay vì MongoDB TTL, dùng expires_at
+            $table->timestamp('expires_at');
             $table->timestamps();
 
             $table->index('email');

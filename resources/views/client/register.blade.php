@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
-
 @section('title', 'Đăng Ký')
 
 @section('breadcrumb', 'Đăng Ký')
