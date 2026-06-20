@@ -32,15 +32,66 @@
                 </svg>
             </button>
 
-            <a href="/dang-nhap" class="header-icon-btn" id="login-btn">
+            @if(session('user'))
+            <div class="header-user-dropdown">
+                <button class="header-user-btn" id="header-user-toggle" type="button">
+                    <img src="{{ session('user')->avatar ?? '/assets/images/default.avif' }}" alt="Avatar"
+                        class="header-user-avatar" />
+                </button>
+                <div class="header-dropdown-menu" id="header-dropdown-menu">
+                    <div class="header-dropdown-info">
+                        <p class="header-dropdown-name">{{ session('user')->fullname }}</p>
+                        <p class="header-dropdown-email">{{ session('user')->email }}</p>
+                    </div>
+                    <div class="header-dropdown-divider"></div>
+                    <a href="/profile" class="header-dropdown-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                        Trang cá nhân
+                    </a>
+                    <a href="/don-hang" class="header-dropdown-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                        </svg>
+                        Đơn hàng của tôi
+                    </a>
+                    @if(session('user')->role === 'admin')
+                    <a href="/admin" class="header-dropdown-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                        Trang quản trị
+                    </a>
+                    @endif
+                    <div class="header-dropdown-divider"></div>
+                    <button type="button" class="header-dropdown-item header-dropdown-logout logout-trigger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                        </svg>
+                        Đăng xuất
+                    </button>
+                </div>
+            </div>
+            @else
+            <a href="{{ route('login') }}" class="header-icon-btn" id="login-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
             </a>
+            @endif
 
-            <a href="/gio-hang" class="header-icon-btn cart-badge">
+            <a href="{{ route('gio-hang') }}" class="header-icon-btn cart-badge">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
