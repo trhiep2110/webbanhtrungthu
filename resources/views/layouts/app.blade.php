@@ -47,11 +47,11 @@
     <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-auth-compat.js"></script>
     <script>
-    firebase.initializeApp({
-        apiKey: "{{ env('VITE_FIREBASE_API_KEY') }}",
-        authDomain: "{{ env('VITE_FIREBASE_AUTH_DOMAIN') }}",
-        projectId: "{{ env('VITE_FIREBASE_PROJECT_ID') }}",
-    });
+        firebase.initializeApp({
+            apiKey: "{{ env('VITE_FIREBASE_API_KEY') }}",
+            authDomain: "{{ env('VITE_FIREBASE_AUTH_DOMAIN') }}",
+            projectId: "{{ env('VITE_FIREBASE_PROJECT_ID') }}",
+        });
     </script>
 
     <!-- Main js -->

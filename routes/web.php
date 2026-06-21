@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\GhnController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Client\HomeController;
 use App\Http\Controllers\Client\ProductController;
@@ -60,3 +61,9 @@ Route::middleware('check.auth')->group(function () {
     Route::post('/profile/dia-chi', [ProfileController::class, 'storeAddress']);
     Route::delete('/profile/dia-chi/{id}', [ProfileController::class, 'deleteAddress']);
 });
+
+
+
+Route::get('/api/ghn/provinces', [GhnController::class, 'provinces']);
+Route::get('/api/ghn/districts', [GhnController::class, 'districts']);
+Route::get('/api/ghn/wards', [GhnController::class, 'wards']);

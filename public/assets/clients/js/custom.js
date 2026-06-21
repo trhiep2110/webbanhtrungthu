@@ -282,7 +282,6 @@ $(document).ready(function () {
         $('.profile-panel').removeClass('active');
         $('#panel-' + tab).addClass('active');
 
-        // Lưu tab hiện tại vào URL hash (để F5 vẫn nhớ tab, nhưng không load lại trang)
         history.replaceState(null, null, '#' + tab);
     });
 
@@ -504,22 +503,23 @@ $(document).ready(function () {
         $('#address-modal').hide();
     }
     $('#address-modal-close, #address-cancel-btn, #address-modal-overlay').on('click', closeAddressModal);
-
     // ===========================================
-    // ĐỊA CHỈ: LOAD TỈNH / HUYỆN / XÃ (GHN API)
+    // ĐỊA CHỈ: LOAD TỈNH / HUYỆN / XÃ (QUA LARAVEL PROXY)
     // ===========================================
     function loadProvinces() {
         const select = $('#addr-province');
         if (select.find('option').length > 1) return; // đã load rồi
 
         $.ajax({
-            url: 'https://online-gateway.ghn.vn/shiip/public-api/master-data/province',
+            url: '/api/ghn/provinces',
             method: 'GET',
-            headers: { 'Token': window.GHN_API_KEY || '' },
             success: function (res) {
                 (res.data || []).forEach(p => {
                     select.append(`<option value="${p.ProvinceID}" data-name="${p.ProvinceName}">${p.ProvinceName}</option>`);
                 });
+            },
+            error: function () {
+                showToast('Không thể tải danh sách tỉnh/thành phố!', 'error');
             }
         });
     }
@@ -534,14 +534,16 @@ $(document).ready(function () {
         if (!provinceId) return;
 
         $.ajax({
-            url: 'https://online-gateway.ghn.vn/shiip/public-api/master-data/district',
+            url: '/api/ghn/districts',
             method: 'GET',
             data: { province_id: provinceId },
-            headers: { 'Token': window.GHN_API_KEY || '' },
             success: function (res) {
                 (res.data || []).forEach(d => {
                     districtSelect.append(`<option value="${d.DistrictID}" data-name="${d.DistrictName}">${d.DistrictName}</option>`);
                 });
+            },
+            error: function () {
+                showToast('Không thể tải danh sách quận/huyện!', 'error');
             }
         });
     });
@@ -554,14 +556,16 @@ $(document).ready(function () {
         if (!districtId) return;
 
         $.ajax({
-            url: 'https://online-gateway.ghn.vn/shiip/public-api/master-data/ward',
+            url: '/api/ghn/wards',
             method: 'GET',
             data: { district_id: districtId },
-            headers: { 'Token': window.GHN_API_KEY || '' },
             success: function (res) {
                 (res.data || []).forEach(w => {
                     wardSelect.append(`<option value="${w.WardCode}" data-name="${w.WardName}">${w.WardName}</option>`);
                 });
+            },
+            error: function () {
+                showToast('Không thể tải danh sách phường/xã!', 'error');
             }
         });
     });
